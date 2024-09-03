@@ -1,3 +1,6 @@
-@tailwind base;
+/* See https://github.com/radix-ui/themes/issues/109#issuecomment-1747345743 */
+@import 'tailwindcss/base';
+@import '@radix-ui/themes/styles.css';
+
 @tailwind components;
 @tailwind utilities;
